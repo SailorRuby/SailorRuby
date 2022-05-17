@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.google.com/specimen/Rubik' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>2D Art</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body id="WebPage">
+
+    <div class="wrapper">
+
+    <script src="pulltorefresh.js"> </script>
+
+    <script> const ptr = PullToRefresh.init({
+      mainElement: '#WebPage',
+      onRefresh() {
+        window.location.reload();
+      }
+});
+
+</script>
+
+
+    <img src="docs/asset/icon.png" id="icon" />
+
+    <img src="docs/asset/birds.png" id="birds" />
+
+
+    <h1>2D Art</h1>
+
+    <p>I’m busy grinding out anatomy so there won’t be any finished pieces for a bit. <br> I'm also very busy with real life at the moment but things should kick back in into motion around the end of may</p>
+
+
+ <div class="art">
+
+    <div class="sketches">
+
+      <h2>Sketches</h2>
+
+      <img src="docs/asset/Sketch1.jpg" class="Sketch" />
+
+      <img src="docs/asset/Sketch2.jpg" class="Sketch" />
+
+      <img src="docs/asset/Sketch3.png" class="Sketch" />
+
+      <img src="docs/asset/Gesture4.jpg" class="Sketch" />
+
+      <img src="docs/asset/Gesture3.jpg" class="Sketch" />
+
+      <img src="docs/asset/Gesture2.jpg" class="Sketch" />
+
+      <img src="docs/asset/Gesture1.jpg" class="Sketch" />
+
+    </div>
+
+
+    <div class="AnatomyPractice">
+
+      <div class="Exercise"><h3>Anatomy Practice</h3></div>
+
+      <img src="docs/asset/Head exercise.png" class="Exercise" />
+
+      <img src="docs/asset/Quick Exercise.png" class="Exercise" />
+
+    </div>
+    
+
+    <div class="Finished">
+
+      <h4>Finished Art</h4>
+
+
+      <img src="docs/asset/itwatchesout.png" id="anchor" />
+
+      <hr></hr>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+    <ul>
+
+      <nav class="navbar">
+
+      <li><a href="index.html">Home Page</a></li>
+
+      <li><a href="2D.html">2D</a></li>
+
+      <li><a href="3D.html">3D</a></li>
+
+      <li><a href="Video.html">Video Highlight</a></li>
+
+      <li><a href="About Me.html">About Me</a></li>
+
+      <li><a href="Socials.html">Socials</a></li>
+
+    </ul>
+
+      </nav>
+
+
+    <div href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+
+  </body>
+</html>
+
+<style> 
+html {
+  height: 4000px;
+  width: 100%;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .art {
+    top: 500px;
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 700px;
+  }
+
+h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 200px;
+  font-size: 400%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+p {
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 280px;
+  font-size: 150%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+h2 {
+  position: relative;
+  width: 100%;
+  top: -60px;
+  text-align: center;
+  font-size: 400%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+.Sketch {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.AnatomyPractice {
+  margin-top: 50px;
+}
+
+.Exercise {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: -80px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 400%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+h4 {
+  position: absolute;
+  margin-top: -60px;
+  width: 100%;
+  text-align: center;
+  font-size: 400%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+hr {
+    position: relative;
+    top: 700px;
+    left: 50%;
+  transform: translate(-50%);
+    background: #f9a850;
+    border: 0;
+    border: 2.3px solid #ffff;
+    height: 2.5px;
+    z-index: -1;
+    max-width: 10%;
+  }
+  
+  #anchor {
+    position: relative;
+    top: 800px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    max-width: 100%;
+  }
+
+
+  #birds {
+  position: absolute;
+  top: 200px;
+  height: 150x;
+  bottom: 0px;
+  z-index: -3;
+  max-width: 30%;
+  object-fit: cover;
+}
+
+.Finished {
+  margin-top: 60px;
+  padding-bottom: 800px;
+}
+
+</style>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.google.com/specimen/Rubik' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Ruby's Portfolio 2022</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body id="WebPage">
+
+    <div class="wrapper">
+
+    </div>
+
+    <script src="pulltorefresh.js"> </script>
+
+    <script> const ptr = PullToRefresh.init({
+      mainElement: '#WebPage',
+      onRefresh() {
+        window.location.reload();
+      }
+});
+
+</script>
+
+    <img src="docs/asset/icon.png" id="icon" />
+    <ul>
+      
+    <div id="block1"></div>
+
+      <nav class="navbar">
+
+      <li><a href="index.html">Home Page</a></li>
+
+      <li><a href="2D.html">2D</a></li>
+
+      <li><a href="3D.html">3D</a></li>
+
+      <li><a href="Video.html">Video Highlight</a></li>
+
+      <li><a href="About Me.html">About Me</a></li>
+
+      <li><a href="Socials.html">Socials</a></li>
+
+    </ul>
+
+      </nav>
+
+    <div href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <div class="restofthepage">
+      
+      <h1>Portfolio</h1>
+
+      <a href="https://rubyfr.github.io">
+
+      <img src="docs/asset/FR.jpg" id="FR" />
+
+    </a>
+
+      <h3>Portfolio</h3>
+  
+      <h2>2022</h2>
+
+      <h4>Digital Artist And Video Editor</h4>
+
+      <h5>Hi! I'm ruby! <br> This is the website where I host my work!<br> Fell free to have a look around<br>(I don't make nsfw but you might see some unhinged language<br>if that's too much for you avert your eyes)</h5>
+
+      <h6>Digital Artist And Video Editor</h6>
+
+      <h7>Hi! I'm ruby! <br> This is the website where I host my work!<br> Fell free to have a look around<br>(I don't make nsfw but you might see some unhinged language<br>if that's too much for you avert your eyes)</h7>
+    
+    </div>
+
+    <hr />
+
+    <img src="docs/asset/itwatchesout.png" id="anchor" />
+
+    <img src="docs/asset/plant high res.png" id="coolgrass" />
+  </body>
+</html>
+
+<style>
+  
+  html {
+  height: 110%;
+  width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+h1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 100px;
+  font-size: 400%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+h3 {
+  position: relative;
+  top: 24px;
+  width: 100%;
+  text-align: center;
+  font-size: 400%;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  -webkit-text-stroke: 4px white;
+  z-index: 3;
+  max-width: 100%;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  color: #ffff;
+  font-family: rubik, sans-serif;
+  font-weight: normal;
+  background-color: #f73e5d;
+  color: #ffff;
+  text-indent: 17px;
+  letter-spacing: 17px;
+  width: 100%;
+  margin-top: 70px;
+  font-size: 350%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  z-index: 4;
+}
+
+h4 {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 200%;
+  text-align: center;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+h5 {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 130%;
+  text-align: center;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+h6 {
+  position: absolute;
+  width: 100%;
+  margin-top: -191px;
+  font-size: 200%;
+  text-align: center;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 3;
+  -webkit-text-stroke: 4px white;
+}
+
+h7 {
+  position: absolute;
+  width: 100%;
+  margin-top: -124px;
+  font-size: 130%;
+  text-align: center;
+  color: #f9a850;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 3;
+  -webkit-text-stroke: 4px white;
+}
+
+
+#coolgrass {
+  position: absolute;
+  height: 759px;
+  bottom: 0px;
+  z-index: -3;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+hr {
+    position: absolute;
+    margin: auto;
+    background: #f9a850;
+    border: 0;
+    border: 2.3px solid #ffff;
+  border-radius: 2px;
+    left: 40%;
+    right: 40%;
+    bottom: 90px;
+    height: 2.5px;
+    z-index: -1;
+    max-width: 10%;
+  }
+  
+  #anchor {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    max-width: 100%;
+  }
+
+  #FR {
+    position: absolute;
+    top: 130px;
+    right: 10px;
+    margin-left: -25px;
+    width: 140px;
+    height: 50px;
+    z-index: 5;
+    max-width: 100%;
+  }
+
+@media (max-height: 410px){
+
+hr {
+  display: none;
+}
+
+#anchor {
+
+display: none;
+}
+}
+
+</style>

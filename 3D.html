@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.google.com/specimen/Rubik' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>3D Art</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body id="WebPage">
+
+    <div class="wrapper">
+
+    <script src="pulltorefresh.js"> </script>
+
+    <script> const ptr = PullToRefresh.init({
+      mainElement: '#WebPage',
+      onRefresh() {
+        window.location.reload();
+      }
+});
+
+</script>
+
+
+    <img src="docs/asset/iconalt.png" id="iconalt" />
+    <img src="docs/asset/boat2.0.png" id="boat" />
+    <img src="docs/asset/moon.png" id="moon" />
+    <ul>
+
+      <div class="modelwork">
+
+        <img src="docs/asset/low poly ace.png" id="birthdaygift" />
+
+        <img src="docs/asset/Model without paint and head.png" id="Incompletandunpainted" />
+
+
+      </div>
+
+      <nav class="navbaralt">
+
+      <li><a href="index.html">Home Page</a></li>
+
+      <li><a href="2D.html">2D</a></li>
+
+      <li><a href="3D.html">3D</a></li>
+
+      <li><a href="Video.html">Video Highlight</a></li>
+
+      <li><a href="About Me.html">About Me</a></li>
+
+      <li><a href="Socials.html">Socials</a></li>
+
+    </ul>
+
+      </nav>
+
+      
+      <h1>3D</h1>
+
+      <h2>3D</h2>
+
+      <p>I have no plans of making models for a bit as I’m focused on grinding anatomy and painting. This section is on a sort of lock down at the moment so you can look at some older stuff for now. </p>
+
+      <div class="p2">
+      
+      <p2>I have no plans of making models for a bit as I’m focused on grinding anatomy and painting. This section is on a sort of lock down at the moment so you can look at some older stuff for now.</p2>
+
+    </div>
+
+    <div href="#" class="toggle-buttonalt">
+      <span class="baralt"></span>
+      <span class="baralt"></span>
+      <span class="baralt"></span>
+    </div>
+
+    <hr></hr>
+    <img src="docs/asset/itwatchesoutalt.png" id="anchoralt" />
+
+  </body>
+</html>
+
+<style> 
+
+.toggle-buttonalt {
+    position: absolute;
+    background-color: #080027;
+    outline: white 4px solid;
+    border-radius: 1px;
+    top: 40px;
+    right: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-buttonalt .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #080027;
+    border-radius: 10px;
+  }
+
+  .navbaralt {
+    border: 3px solid #fff7de;
+    float: right;  
+    background-color: #080027(255, 255, 255);
+    z-index: 2;
+    top: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 100px;
+    border-radius: 5px;
+  }
+
+  .navbaralt li {
+    overflow: hidden;
+    float: left;
+    list-style-type: none;
+    line-height: 80px;
+    padding: 0 20px;
+  }
+  
+  .navbaralt li a {
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+     font-size: 170%;
+    color: #fff7de;
+    font-family: rubik, sans-serif;
+  }
+
+  .navbaralt li:hover {
+    overflow: hidden;
+    background-color: #fff7de46;
+  }
+  
+  @media (max-width: 1000px){
+    .toggle-buttonalt {
+      display: flex;
+    }
+
+    .navbaralt {
+      display: none;
+    }
+
+    .navbaralt.active {
+      display: absolute;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  height: 160%;
+  width: 100%;
+  background-color: #080027;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .modelwork {
+    top: 400px;
+    position: absolute;
+    align-items: center;
+    height: 35%;
+    width: 35%;
+    left: 50%;
+    background-color: #fff7de;
+    outline: 4px solid #080027;
+    border-radius: 4px;
+    padding-bottom: 70%;
+    transform: translate(-50%);
+  }
+
+  #wireframeS {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 200px;
+  font-size: 400%;
+  color: #fff7de;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 200px;
+  font-size: 400%;
+  color: #fff7de;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+  -webkit-text-stroke: 4px #080027;
+  z-index: -1;
+}
+
+p {
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 280px;
+  font-size: 150%;
+  color: #fff7de;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+}
+
+.p2 {
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 280px;
+  font-size: 150%;
+  color: #fff7de;
+  font-family: rubik, sans-serif;
+  font-weight: 5;
+  z-index: 4;
+  -webkit-text-stroke: 4px #080027;
+  z-index: -1;
+}
+
+hr {
+    position: absolute;
+    margin: auto;
+    background: #080027;
+    border: 2.3px solid #fff7de;
+    left: 40%;
+    right: 40%;
+    bottom: -1100px;
+    height: 2.5px;
+    z-index: -1;
+    max-width: 10%;
+  }
+  
+  #anchoralt {
+    position: absolute;
+    bottom: -1190px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    max-width: 100%;
+  }
+
+  #boat {
+    position: fixed;
+  top: -250px;
+  left: -20px;
+  bottom: 0px;
+  z-index: -2;
+  max-width: 850px;
+  object-fit: cover;
+  }
+
+  #moon {
+  position: fixed;
+  top: 20%;
+  left: 50px;
+  z-index: -2;
+  max-width: 200px;
+  object-fit: cover;
+  }
+
+  #iconalt {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 75px;
+    z-index: 3;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+
+</style>
